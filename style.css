@@ -1,0 +1,100 @@
+#wrapper {
+  width: 270px;
+  height: 400px;
+  margin: 0 auto;
+  background-color:darkseagreen;
+  border: 1px solid #dcdcdca4;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: 'Passions Conflict', cursive;
+}
+/*display area----------------------------------------------------*/
+#display {
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+/*画面*/
+input {
+  width: 155px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ffffff;
+  font-size: large;
+  padding-right: 5px;
+}
+input {
+  text-align: right;
+
+}
+/*Cボタン*/
+#reset {
+  width: 50px;
+  height: 45px;
+}
+
+/*display area END------------------------------------------------*/
+
+
+
+/*button area-----------------------------------------------------*/
+button {
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+ #button_area {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+ }
+
+ /*四則演算ボタン*/
+ .operation button {
+  width: 51px;
+  background-color:#ffcc66;
+ }
+ .operation button:hover{
+  background-color: orange;
+ }
+ /*数字ボタン*/
+ .number button {
+  background-color:aliceblue;
+  width: 70px;
+ }
+ .number button:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+  }
+
+ /* = と .*/
+ .result button {
+  width: 70px;
+ }
+ .result button:nth-child(2){
+  width: 30px;
+ }
+ .result button:hover {
+  background-color:aliceblue;
+  cursor: pointer;
+ }
+
+ #equal {
+  width: 115px;
+  background-color: lightblue;
+ }
+
+#equal:hover {
+    background-color: #4646b0;
+  }
