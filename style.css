@@ -1,7 +1,7 @@
 #wrapper {
   width: 270px;
-  height: 400px;
-  margin: 0 auto;
+  height: 420px;
+  margin: 100px auto;
   background-color:darkseagreen;
   border: 1px solid #dcdcdca4;
   border-radius: 5px;
@@ -78,7 +78,7 @@ button {
   cursor: pointer;
   }
 
- /* = と .*/
+ /* =  .*/
  .result button {
   width: 70px;
  }
